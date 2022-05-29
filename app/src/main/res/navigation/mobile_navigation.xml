@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.lab3mr17040.ui.GPSFragment"
+        android:label="@string/menu_audio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.lab3mr17040.ui.VideoFragment"
+        android:label="@string/menu_video"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.lab3mr17040.ui.CamaraFragment"
+        android:label="@string/menu_camara"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_lectura"
+        android:name="com.example.lab3mr17040.ui.LecturaFragment"
+        android:label="Lectura"
+        tools:layout="@layout/fragment_lectura" />
+    <fragment
+        android:id="@+id/nav_dictado"
+        android:name="com.example.lab3mr17040.ui.DictadoFragment"
+        android:label="Dictado"
+        tools:layout="@layout/fragment_dictado" />
+    <fragment
+        android:id="@+id/nav_gps"
+        android:name="com.example.lab3mr17040.ui.GPSFragment"
+        android:label="GPS"
+        tools:layout="@layout/fragment_g_p_s" />
+    <fragment
+        android:id="@+id/nav_gestos"
+        android:name="com.example.lab3mr17040.ui.GestosFragment"
+        android:label="Gestos"
+        tools:layout="@layout/fragment_gestos" />
+</navigation>
